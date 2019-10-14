@@ -1,11 +1,12 @@
 body {
     background: url(../images/sun-pattern.png);
     background-size: auto;
+    margin-bottom: 60px;
     
 
 }
 
-h1 {
+.header {
     font-family: 'Cookie', cursive;
     font-size: 100px;
     color: palevioletred;
@@ -13,7 +14,7 @@ h1 {
     margin: 20px;
 }
 
-h3 {
+.instructions {
     text-align: center;
     font-family: 'Poiret One', cursive;
     font-size: 20px;
@@ -21,8 +22,127 @@ h3 {
     opacity: 0.6;
     margin: 30px;
     padding: 10px;
-    margin-top: -20px;
+    margin-top: -90px;
     font-weight: 700;
     font:bold;
     
+}
+
+.numbers {
+    grid-area: counter;
+    overflow: hidden;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+#randomNumber {
+    background-color: aliceblue;
+    height: 200px;
+    width: 250px;
+    top: 50%;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+    font-size: 2.2em;
+}
+
+#userScore {
+    background-color: aliceblue;
+    height: 200px;
+    width: 250px;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 12px 0 rgba(0, 0, 0, 0.19);
+    font-size: 2.2em;
+}
+
+#winsLosses {
+    background-color: aliceblue;
+    height: 200px;
+    width: 250px;
+    border-radius: 2px;
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 12px 0 rgba(0, 0, 0, 0.19);
+    font-size: 2.2em;
+
+}
+
+.box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.box:after {
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background:#fff;
+    z-index: -1;
+    filter: blur(40px);
+
+}
+.box:before,
+.box::after {
+    background:linear-gradient(109.84039425891115deg, rgba(255, 226, 160,1) 25.137147335423194%,rgba(255, 115, 156,1) 95.4937304075235%)
+}
+
+
+.crystals {
+    margin-left: 50px;
+   
+}
+
+
+
+#gem {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+
+    
+    
+}
+
+
+#pearl {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    width: ;
+}
+
+
+#stone {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    width: ;
+}
+
+
+#gold {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    width: ;
 }

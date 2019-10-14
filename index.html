@@ -8,13 +8,28 @@
     
     <link rel="stylesheet" href="assets/reset.css">
     <link rel="stylesheet" href="assets/style.css">
+    <script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link href="https://fonts.googleapis.com/css?family=Advent+Pro|Amatic+SC|Cookie|Pathway+Gothic+One|Poiret+One|Satisfy&display=swap" rel="stylesheet">
-    
+    <script src="javascript/game.js"></script>
 
 </head>
-<body>
+<header>
+
+<div class="container">
+<div class="header">
+    
 <h1>Crystal Collector</h1><br>
 
+</div>
+</div>
+
+</header>
+
+<body>
+
+
+<div class="instructions">
 <h3>You will be given a random number at the start of the game. <br><br>
     There are four crystals below. By clicking on a crystal you will add a specific amount of points to your toal score. <br><br> 
     You win the game by matching your total score to the random number, you lose the game if your total score goes above the random number.<br><br>
@@ -23,7 +38,55 @@
 
 </h3>
 
-<script src="javascript/game.js"></script>
+</div>
+
+<div class="numbers">
+
+        <div id="randomNumber">
+            <br>
+            <h3 id="card">Goal:</h3>
+            <hr>
+            <p id="jsRandom">000</p>
+        </div>
+
+        <div id="userScore">
+            <br>
+            <h3 id="card">Current Score:</h3>
+            <hr>
+            <p id="jsUserScore">00</p>
+        </div>
+
+        <div id="winsLosses">
+            <br>
+            <h3 id="card">Total:</h3>
+            <hr>
+                <p id="jsWins">Wins: 00</p>
+
+                <p id="jsLosses">Losses: 00</p>
+        </div>
+
+    </div>
+
+    <div class="box">
+        <div class="container">
+
+    <div class="crystals">
+
+            <img id="gem" src="images/gem.png" width="200" height="180">
+            <img id="pearl" src="images/rose quartz.jpg" width="200" height="180">
+            <img id="gold" src="images/gold.jpg" width="200" height="180">
+            <img id="stone" src="images/stone.png" width="200" height="180">
+            
+
+    </div>
+</div>
+
+</div>
+
+</div>
+
+
+
     
 </body>
 </html>
