@@ -70,11 +70,13 @@ $(document).ready(function() {
     function winLose() {
     
         if (userScore === computerNum) {
+            alert("You Win!");
             wins++;
             $('#jsWins').text('Wins: ' + wins);
             reset();
             
         } else if (userScore > computerNum){
+            alert("You Lose!")
             losses++;
             $('#jsLosses').text('Losses: ' + losses);
             reset();

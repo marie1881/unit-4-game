@@ -29,54 +29,62 @@ body {
 }
 
 .numbers {
-    grid-area: counter;
+    background-color: rgb(248, 187, 147);
+    margin-top: 90px;
+    opacity: 0.6;
+    margin: 30px;
     overflow: hidden;
     grid-column-start: 3;
     grid-column-end: 5;
-    background-color: aquamarine;
+    font-family: 'Poiret One', cursive;
     padding: 10px;
-    border-radius: 4px;
     text-align: center;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+    font-weight: 700;
+    font:bold;
 
 }
 
 #randomNumber {
-    background-color: aliceblue;
+    
     height: 200px;
-    width: 250px;
-    top: 50%;
+    width: 250px;   
     border-radius: 2px;
     display: inline-block;
     margin: 5px;
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 12px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Poiret One', cursive;
     font-size: 2.2em;
+    font-weight: 700;
+    font:bold;
 }
 
 #userScore {
-    background-color: aliceblue;
+    
     height: 200px;
     width: 250px;
     border-radius: 2px;
     display: inline-block;
     margin: 5px;
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 12px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Poiret One', cursive;
     font-size: 2.2em;
+    font-weight: 700;
+    font:bold;
 }
 
 #winsLosses {
-    background-color: aliceblue;
+    
     height: 200px;
     width: 250px;
     border-radius: 2px;
     display: inline-block;
     margin: 5px;
-    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 4px 12px 0 rgba(0, 0, 0, 0.19);
+    font-family: 'Poiret One', cursive;
     font-size: 2.2em;
+     font-weight: 700;
+    font:bold;
 
 }
 
@@ -85,6 +93,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
     
 
 }
