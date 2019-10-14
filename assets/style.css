@@ -1,0 +1,28 @@
+body {
+    background: url(../images/sun-pattern.png);
+    background-size: auto;
+    
+
+}
+
+h1 {
+    font-family: 'Cookie', cursive;
+    font-size: 100px;
+    color: palevioletred;
+    text-align: center;
+    margin: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size: 20px;
+    background-color: pink;
+    opacity: 0.6;
+    margin: 30px;
+    padding: 10px;
+    margin-top: -20px;
+    font-weight: 700;
+    font:bold;
+    
+}
