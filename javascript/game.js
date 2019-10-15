@@ -39,7 +39,7 @@ $(document).ready(function() {
         winLose();
     });
     
-    $('#pearl').on('click', function(){
+    $('#rose').on('click', function(){
         userScore = userScore + randNum2;
         console.log('Current user score is ' + userScore);
             $('#jsUserScore').text(userScore);
